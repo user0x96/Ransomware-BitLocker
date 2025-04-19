@@ -24,10 +24,10 @@
   ```cmd
   python EncryptionBitLocker.py
   ```
-- **Run Decrypt**: 
-```cmd
-python DecryptionBitLocker.py
-```
+- **Run Encrypt**:
+  ```cmd
+  python DecryptionBitLocker.py
+  ```
 ## Information About Encryption
 1. **Disable TaskManager**  
    - **Note**: Disable TaskManager immediately (Return `1` to disable)  
