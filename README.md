@@ -19,9 +19,12 @@
           ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, __file__, None, 1)
           sys.exit()
   run_as_admin()
+  
+**Run Encrypt**
  ```cmd
   python EncryptionBitLocker.py
   ```
+**Run Decrypt**:
   ```cmd
   python DecryptionBitLocker.py
   ```
