@@ -20,12 +20,12 @@
           sys.exit()
   run_as_admin()
   
-**Run Encrypt**:
- - ```cmd
+- **Run Encrypt**:
+  ```cmd
   python EncryptionBitLocker.py
   ```
-**Run Decrypt**: 
-- ```cmd
+- **Run Decrypt**: 
+```cmd
 python DecryptionBitLocker.py
 ```
 ## Information About Encryption
