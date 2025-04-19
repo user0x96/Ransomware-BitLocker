@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><b>Ransom-BitLocker (Encryption & Decryption)</b></h1>
+  <h1><b>Ransom-BitLocker (Encryption & Decryption) 🔐</b></h1>
   <img src="Bitlocker.png" alt="BitLocker" width="300">
 </div>
 
@@ -20,7 +20,7 @@
           sys.exit()
   run_as_admin()
   
-**Run Encrypt**
+**Run Encrypt**:
  ```cmd
   python EncryptionBitLocker.py
   ```
