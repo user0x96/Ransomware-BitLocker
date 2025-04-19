@@ -8,6 +8,21 @@
 - **Dependencies**: Install the required Python package using
   ```bash
   pip install requests
+
+## Run Command
+- Add this code at the top of `EncryptionBitLocker.py` and `DecryptionBitLocker.py` to ensure admin privileges:
+  ```python
+  import ctypes
+  import sys
+
+  def run_as_admin():
+      if ctypes.windll.shell32.IsUserAnAdmin():
+          return
+      else:
+          ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, __file__, None, 1)
+          sys.exit()
+
+  run_as_admin()
   
 ## Information About Encryption
 1. **Disable TaskManager**  
