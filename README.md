@@ -28,6 +28,8 @@
   ```cmd
   python DecryptionBitLocker.py
   ```
+ - **#Note: Please run the test on a virtual machine (vmware, virtualbox..) for testing.⚠️**
+  
 ## Information About Encryption
 1. **Disable TaskManager**  
    - **Note**: Disable TaskManager immediately (Return `1` to disable)  
