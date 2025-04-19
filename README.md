@@ -10,11 +10,8 @@
   pip install requests
 
 ## Run Command
-- Add this code at the top of `EncryptionBitLocker.py` and `DecryptionBitLocker.py` to ensure admin privileges:
+- Make sure to run with admin privileges for cmd or Add this code at the top of `EncryptionBitLocker.py` and `DecryptionBitLocker.py` to ensure admin privileges:
   ```python
-  import ctypes
-  import sys
-
   def run_as_admin():
       if ctypes.windll.shell32.IsUserAnAdmin():
           return
@@ -23,7 +20,10 @@
           sys.exit()
 
   run_as_admin()
-  
+  ```bash
+  python EncryptionBitLocker.py
+  ```bash
+  python DecryptionBitLocker.py
 ## Information About Encryption
 1. **Disable TaskManager**  
    - **Note**: Disable TaskManager immediately (Return `1` to disable)  
