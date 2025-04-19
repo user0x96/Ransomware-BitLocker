@@ -10,7 +10,7 @@
   pip install requests
 
 ## Run Command
-- Make sure to run with admin privileges for cmd or Add this code at the top of `EncryptionBitLocker.py` and `DecryptionBitLocker.py` to ensure admin privileges:
+- Make sure to run with admin privileges for **cmd** or Add this code at the top of `EncryptionBitLocker.py` and `DecryptionBitLocker.py` to ensure admin privileges:
   ```python
   def run_as_admin():
       if ctypes.windll.shell32.IsUserAnAdmin():
