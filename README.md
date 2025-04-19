@@ -21,11 +21,11 @@
   run_as_admin()
   
 **Run Encrypt**:
- ```cmd
+ - ```cmd
   python EncryptionBitLocker.py
   ```
 **Run Decrypt**: 
-```cmd
+- ```cmd
 python DecryptionBitLocker.py
 ```
 ## Information About Encryption
