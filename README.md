@@ -18,12 +18,13 @@
       else:
           ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, __file__, None, 1)
           sys.exit()
-
   run_as_admin()
-  ```bash
+ ```cmd
   python EncryptionBitLocker.py
-  ```bash
+  ```
+  ```cmd
   python DecryptionBitLocker.py
+  ```
 ## Information About Encryption
 1. **Disable TaskManager**  
    - **Note**: Disable TaskManager immediately (Return `1` to disable)  
